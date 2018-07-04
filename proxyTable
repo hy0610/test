@@ -1,9 +1,0 @@
-# test proxyTable: {          
-          '/ajax': {
-              target: 'http://m.d1.cn/',
-              host: 'm.maizuo.com',
-              changeOrigin:true,
-              
-          },
-         
-    }
