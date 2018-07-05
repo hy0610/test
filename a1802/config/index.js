@@ -11,14 +11,17 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
-
-        '/v4': {
-              target: 'https://m.maizuo.com',
-              host: 'm.maizuo.com',
+         '/ajax': {
+              target: 'http://m.d1.cn',
+              host: 'm.d1.cn',
               changeOrigin:true,
       },
-
     },
+
+// http://m.d1.cn/ajax/wap/getresult.jsp?pageno=1&productsort=019007&order=4&psize=48&pprice=&brand=&shopd1=&iftkt=
+
+
+
 
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST
